@@ -14,7 +14,7 @@ function calcular(){
     let mult = num1 * num2;
     console.log('Multiplicação = '+ mult);
 
-    let adic = num1 + num2;
+    let adic = Number(num1) + Number(num2);
     console.log('Adição = '+ adic);
 
     let divi = num1 / num2;
